@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 위에 텍스트</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column; /* 세로 방향으로 요소를 배치 */
+            align-items: center; /* 가로 방향으로 가운데 정렬 */
+            text-align: center; /* 텍스트를 가운데 정렬 */
+            width: 100%;
+            max-width: 300px; /* 최대 너비 설정 */
+            margin: 0 auto; /* 페이지 중앙 정렬을 위해 */
+        }
+
+        .image {
+            width: 100%;
+            height: auto; /* 이미지 비율 유지를 위해 */
+            display: block;
+        }
+
+        .text {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img class="image" src="images/low1.jpg" alt="이미지 설명">
+        <div class="text">여기에 텍스트를 추가하세요</div>
+    </div>
+
+</body>
+</html>

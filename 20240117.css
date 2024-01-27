@@ -1,0 +1,44 @@
+* {
+margin: 0;
+padding: 0;
+}
+.section {
+    width: 100vw;
+    height: 43.12vw;
+}
+.article_container {
+    width: 71.04%;
+    height: 31.09%;
+    margin-top: 7.93%;
+    display: flex;
+    justify-content: space-between;
+}
+.container1 {
+    width: 12.86%;
+    height: 28.50%;
+    margin-top: 6.30%;
+}
+.maintxt {
+    font-size: 3.44vw;
+    font-weight: 400;
+}
+.subtxt {
+    font-size: 1.46vw;
+    font-weight: 200;
+    margin-top: 3.49vw;
+}
+.container2 {
+    width: 51.30%;
+    height: 70.77%;
+    display: flex;
+    border: 1px solid red;
+}
+.contentbox1 {
+    width: 30.76%;
+    height: 46.42%;
+    border: 1px solid red;
+}
+.contentbox1 img{
+    width: 58.09%;
+    height: 58.09%;
+}
