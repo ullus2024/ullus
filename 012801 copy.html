@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="012801 copy.css" />
+  </head>
+  <body>
+    <!-- <div class="section1"> -->
+    <!-- section은 한개이므로 굳이 1 쓰지 않기 -->
+    <div class="section">
+      <!-- <p class="titletxt">CONTACT</p> -->
+      <!-- 다른 곳에서 사용될 것 아니면 굳이 class 안쓰기 -->
+      <p>CONTACT</p>
+      <!-- <div class="article_container1"> -->
+      <!-- article_container는 한개이므로 굳이 1을 쓸 필요가 없음. -->
+      <div class="article_container">
+        <!-- <div class="article1"> -->
+        <!-- article 속성이 같은 것들은 묶기 -->
+        <div class="article article1">
+          <!-- <div class="contentbox"> -->
+          <!-- box는 안써도 된다면 쓰지 말 것 -->
+          <div class="content">
+            <!-- <p class="contenttitle">프로젝트 용도<span>*</span></p> -->
+            <!-- content 안에 있는 title 이니까 굳이 content 안써도 됨. -->
+            <p class="title">프로젝트 용도<span>*</span></p>
+            <!-- <div class="contentinbox"> -->
+            <!-- box 안의 주 역할이 input이니까 box 이름은 input_box로 쓰고, 두 단어가 합쳐진다면 "_"를 쓸 것 -->
+            <div class="input_box">
+              <!-- <p class="inputtxt">[필수]선택해 주세요</p> -->
+              <!-- p 태그에 class는 최대한 안쓰는 방향으로 -->
+              <p>[필수]선택해 주세요</p>
+              <img src="../images/inputcheck.png" alt="" />
+            </div>
+          </div>
+          <div class="content">
+            <p class="title">프로젝트 명<span>*</span></p>
+            <div class="input_box"></div>
+          </div>
+          <div class="content">
+            <p class="title">회사명<span>*</span></p>
+            <div class="input_box"></div>
+          </div>
+          <div class="content">
+            <p class="title">당담자 성함 및 직함<span>*</span></p>
+            <div class="input_box"></div>
+          </div>
+          <div class="content">
+            <p class="title">전화번호<span>*</span></p>
+            <div class="input_box"></div>
+          </div>
+          <div class="content">
+            <p class="title">이메일<span>*</span></p>
+            <div class="input_box"></div>
+          </div>
+          <div class="content">
+            <p class="title">제작예산</p>
+            <div class="input_box"></div>
+          </div>
+          <div class="content">
+            <p class="title">제작일정</p>
+            <div class="input_box"></div>
+          </div>
+        </div>
+        <!-- <div class="article2"> -->
+        <div class="article">
+          <p class="title">레퍼런스</p>
+          <!-- <div class="inputfilebox"> -->
+          <div class="file_box">
+            <img src="../images/inputfile.png" alt="" />
+            <p>파일첨부, 링크첨부 (최대20MB)</p>
+          </div>
+          <p class="title">상담내용</p>
+          <!-- <div class="userbox"></div> -->
+          <!-- 이럴때 content_box를 쓰기 -->
+          <div class="content_box"></div>
+        </div>
+      </div>
+      <!-- <div class="article3"> -->
+      <!-- 중복되는 속성들은 최대한 활용. -->
+      <!-- 이 부분은 될 수 있으면 article을 안싸고 하는 방향으로 해보길. -->
+      <div class="article article3">
+        <!-- <div class="usercheck"> -->
+        <!-- check가 주 역할이므로 check_box -->
+        <div class="check_box">
+          <img src="../images/inputcheck2.png" alt="" />
+          <!-- <p class="checktxt"><u>개인정보수집</u>에 동의합니다</p> -->
+          <!-- 마찬가지로 다른 곳에서 사용될 것 아니면 굳이 class 안붙이는 쪽으로 -->
+          <p><u>개인정보수집</u>에 동의합니다</p>
+        </div>
+        <!-- <div class="sendbox">문의하기</div> -->
+        <!-- 이제부터 취합물 전송은 submit or submit_btn으로 하기 -->
+        <div class="submit_btn">문의하기</div>
+      </div>
+    </div>
+  </body>
+</html>
